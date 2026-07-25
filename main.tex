@@ -24,7 +24,7 @@
 % Colors
 % ------------------------------------------------------------
 
-\colorlet{cblue}{RoyalPurple}
+\colorlet{cblue}{MidnightBlue}
 \colorlet{cgreen}{ForestGreen}
 \colorlet{cred}{Rhodamine}
 
@@ -50,7 +50,7 @@
 \setbeamercolor{normal text}{fg=black,bg=white}
 
 \setbeamercolor{block title}{
-  fg=rblue,
+  fg=black,
   bg=white
 }
 
@@ -140,6 +140,11 @@
 % ------------------------------------------------------------
 \usetikzlibrary{nfold}
 
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamercolor{bibliography entry location}{fg=black}
+\setbeamercolor{bibliography entry note}{fg=black}
+
 \begin{document}
 
 \begin{frame}[fragile, t]
@@ -151,7 +156,7 @@
 \begin{center}
 
 {\usebeamerfont{title}
- \color{rblue}
+%  \color{rblue}
  {\setlength{\fboxsep}{20pt}\fbox{\parbox{0.60\linewidth}{\centering\inserttitle}}}
  \par}
 
