@@ -1,0 +1,57 @@
+% https://q.uiver.app/#q=WzAsMzYsWzEsMCwiXFx0ZXh0e2F0b21zfSJdLFswLDIsIlxcYnVsbGV0Il0sWzEsMiwiXFxidWxsZXQiXSxbMSwxLCJcXGJ1bGxldCJdLFswLDQsIlxcYnVsbGV0Il0sWzEsNCwiXFxidWxsZXQiXSxbMSwzLCJcXGJ1bGxldCJdLFsyLDBdLFszLDQsIlxcYnVsbGV0Il0sWzUsNCwiXFxidWxsZXQiXSxbNCwzLCJcXGJ1bGxldCJdLFs2LDQsIlxcYnVsbGV0Il0sWzUsMywiXFxidWxsZXQiXSxbNCwyLCJcXGJ1bGxldCJdLFs1LDIsIlxcYnVsbGV0Il0sWzQsMCwiXFx0ZXh0e21vbGVjdWxlc30iXSxbOCwwLCJcXGJ1bGxldCJdLFswLDYsIlxcdGV4dHtkaXJlY3RlZH1cXFxcXFx0ZXh0e2NvbXBsZXhlc30iXSxbMCw1LCJcXHRleHR7d2hpY2h9XFxcXFxcdGV4dHthcmV9Il0sWzIsNF0sWzMsMiwiXFxidWxsZXQiXSxbOCwyLCJcXGJ1bGxldCJdLFsxMCwzLCJcXGJ1bGxldCJdLFsxMCwxLCJcXGJ1bGxldCJdLFsxNiw1LCJcXGJ1bGxldCJdLFsxOCw1LCJcXGJ1bGxldCJdLFsxNiw4LCJcXGJ1bGxldCJdLFsxNyw4XSxbMTgsOCwiXFxidWxsZXQiXSxbMTEsOCwiXFxidWxsZXQiXSxbMTMsOCwiXFxidWxsZXQiXSxbMTEsNSwiXFxidWxsZXQiXSxbMTMsNSwiXFxidWxsZXQiXSxbMTcsMSwiXFxidWxsZXQiXSxbMTMsMSwiXFxidWxsZXQiXSxbMTUsMSwiXFxidWxsZXRcXHRvXFxidWxsZXQiXSxbMiwzXSxbNCw2LCIiLDAseyJjdXJ2ZSI6LTF9XSxbNiw1LCIiLDAseyJjdXJ2ZSI6LTF9XSxbNCw1LCIiLDIseyJjdXJ2ZSI6MX1dLFsxMCw5XSxbOCwxMF0sWzgsOV0sWzksMTFdLFsxMCwxMl0sWzEyLDExXSxbOSwxMiwiIiwyLHsibGV2ZWwiOjJ9XSxbMTMsMTQsIiIsMix7ImN1cnZlIjotMn1dLFsxMywxNCwiIiwyLHsiY3VydmUiOjJ9XSxbMjAsMTNdLFsyMSwyMiwiIiwyLHsiY3VydmUiOjN9XSxbMjEsMjIsIiIsMCx7ImN1cnZlIjotMywic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzIxLDE2XSxbMjIsMjNdLFsxNiwyMywiIiwxLHsiY3VydmUiOjN9XSxbMTYsMjMsIiIsMSx7ImN1cnZlIjotM31dLFsyNCwyNSwiIiwwLHsiY3VydmUiOjJ9XSxbMjQsMjUsIiIsMix7ImN1cnZlIjotMn1dLFsyNywyNywiIiwwLHsibGV2ZWwiOjJ9XSxbMjYsMjhdLFsyOSwzMF0sWzMxLDMyLCIiLDAseyJjdXJ2ZSI6Mn1dLFszMSwzMiwiIiwyLHsiY3VydmUiOi0yfV0sWzMyLDI0LCIiLDEseyJzaG9ydGVuIjp7InNvdXJjZSI6MzAsInRhcmdldCI6MzB9LCJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6InRvcCJ9LCJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbMzAsMjYsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjozMCwidGFyZ2V0IjozMH0sInN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoidG9wIn0sImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFszMywzM10sWzM0LDM1LCIiLDAseyJvZmZzZXQiOjIsInNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sInN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoidG9wIn0sImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFszNSwzMywiIiwyLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfSwic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn0sImhlYWQiOnsibmFtZSI6ImVwaSJ9fX1dLFszNCwzNSwiIiwyLHsib2Zmc2V0IjotMiwic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfSwic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJ0b3AifSwiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV0sWzM3LDUsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMH19XSxbNDIsMTAsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMH19XSxbNDgsNDcsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XSxbNTQsNTUsIiIsMSx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XSxbNTAsNTEsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XSxbNTAsNTQsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH19XSxbNTEsNTUsIiIsMCx7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs1Niw1NywiIiwwLHsic2hvcnRlbiI6eyJzb3VyY2UiOjIwLCJ0YXJnZXQiOjIwfX1dLFs2MSw2MCwiIiwyLHsic2hvcnRlbiI6eyJzb3VyY2UiOjMwLCJ0YXJnZXQiOjMwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9LCJoZWFkIjp7Im5hbWUiOiJlcGkifX19XSxbMjYsNjMsIiIsMCx7ImxldmVsIjoxLCJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XSxbNzQsNzUsIiIsMix7InNob3J0ZW4iOnsic291cmNlIjoyMCwidGFyZ2V0IjoyMH0sInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dLFs3NiwyNywiIiwyLHsic2hvcnRlbiI6eyJzb3VyY2UiOjMwLCJ0YXJnZXQiOjMwfSwibGV2ZWwiOjEsInN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9LCJoZWFkIjp7Im5hbWUiOiJlcGkifX19XV0=
+\begin{tikzcd}
+	& {\text{atoms}} & {} && {\text{molecules}} &&&& \bullet &&&&&&&&&& \\
+	& \bullet &&&&&&&&& \bullet &&& \bullet && {\bullet\to\bullet} && \bullet \\
+	\bullet & \bullet && \bullet & \bullet & \bullet &&& \bullet \\
+	& \bullet &&& \bullet & \bullet &&&&& \bullet \\
+	\bullet & \bullet & {} & \bullet && \bullet & \bullet \\
+	\begin{array}{c} \text{which}\\\text{are} \end{array} &&&&&&&&&&& \bullet && \bullet &&& \bullet && \bullet \\
+	\begin{array}{c} \text{directed}\\\text{complexes} \end{array} \\
+	\\
+	&&&&&&&&&&& \bullet && \bullet &&& \bullet & {} & \bullet
+	\arrow[""{name=0, anchor=center, inner sep=0}, curve={height=18pt}, from=1-9, to=2-11]
+	\arrow[""{name=1, anchor=center, inner sep=0}, curve={height=-18pt}, from=1-9, to=2-11]
+	\arrow[shift right=2, between={0.2}{0.8}, dashed, hook, from=2-14, to=2-16]
+	\arrow[shift left=2, between={0.2}{0.8}, dashed, hook, from=2-14, to=2-16]
+	\arrow[between={0.2}{0.8}, dashed, two heads, from=2-16, to=2-18]
+	\arrow[from=2-18, to=2-18, loop, in=55, out=125, distance=10mm]
+	\arrow[from=3-2, to=2-2]
+	\arrow[from=3-4, to=3-5]
+	\arrow[""{name=2, anchor=center, inner sep=0}, curve={height=-12pt}, from=3-5, to=3-6]
+	\arrow[""{name=3, anchor=center, inner sep=0}, curve={height=12pt}, from=3-5, to=3-6]
+	\arrow[from=3-9, to=1-9]
+	\arrow[""{name=4, anchor=center, inner sep=0}, curve={height=18pt}, from=3-9, to=4-11]
+	\arrow[""{name=5, anchor=center, inner sep=0}, curve={height=-18pt}, dashed, from=3-9, to=4-11]
+	\arrow[curve={height=-6pt}, from=4-2, to=5-2]
+	\arrow[from=4-5, to=4-6]
+	\arrow[from=4-5, to=5-6]
+	\arrow[from=4-6, to=5-7]
+	\arrow[from=4-11, to=2-11]
+	\arrow[""{name=6, anchor=center, inner sep=0}, curve={height=-6pt}, from=5-1, to=4-2]
+	\arrow[curve={height=6pt}, from=5-1, to=5-2]
+	\arrow[from=5-4, to=4-5]
+	\arrow[""{name=7, anchor=center, inner sep=0}, from=5-4, to=5-6]
+	\arrow[Rightarrow, from=5-6, to=4-6]
+	\arrow[from=5-6, to=5-7]
+	\arrow[""{name=8, anchor=center, inner sep=0}, curve={height=12pt}, from=6-12, to=6-14]
+	\arrow[curve={height=-12pt}, from=6-12, to=6-14]
+	\arrow[""{name=9, anchor=center, inner sep=0}, between={0.3}{0.7}, dashed, hook, from=6-14, to=6-17]
+	\arrow[""{name=10, anchor=center, inner sep=0}, curve={height=12pt}, from=6-17, to=6-19]
+	\arrow[""{name=11, anchor=center, inner sep=0}, curve={height=-12pt}, from=6-17, to=6-19]
+	\arrow[""{name=12, anchor=center, inner sep=0}, from=9-12, to=9-14]
+	\arrow[between={0.3}{0.7}, dashed, hook, from=9-14, to=9-17]
+	\arrow[from=9-17, to=9-19]
+	\arrow[Rightarrow, from=9-18, to=9-18, loop, in=55, out=125, distance=10mm]
+	\arrow[between={0.2}{0.8}, Rightarrow, from=0, to=1]
+	\arrow[between={0.2}{0.8}, Rightarrow, from=3, to=2]
+	\arrow[""{name=13, anchor=center, inner sep=0}, between={0.2}{0.8}, Rightarrow, from=4, to=0]
+	\arrow[""{name=14, anchor=center, inner sep=0}, between={0.2}{0.8}, Rightarrow, dashed, from=5, to=1]
+	\arrow[between={0.2}{0.8}, Rightarrow, from=4, to=5]
+	\arrow[between={0.2}{1}, Rightarrow, from=6, to=5-2]
+	\arrow[between={0.2}{1}, Rightarrow, from=7, to=4-5]
+	\arrow[between={0.3}{0.7}, dashed, two heads, from=8, to=12]
+	\arrow[""{name=15, anchor=center, inner sep=0}, between={0.2}{0.8}, Rightarrow, from=10, to=11]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=180}, draw=none, from=9-17, to=9]
+	\arrow[between={0.2}{0.8}, Rightarrow, scaling nfold=3, dashed, from=13, to=14]
+	\arrow[between={0.3}{0.7}, dashed, two heads, from=15, to=9-18]
+\end{tikzcd}

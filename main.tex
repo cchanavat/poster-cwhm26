@@ -1,0 +1,182 @@
+\documentclass[final]{beamer}
+
+\usepackage[
+  size=a1,
+  orientation=landscape,
+  scale=1.5
+]{beamerposter}
+
+
+\usepackage{amsmath,mathtools,amsthm}
+\usepackage{amssymb,amsfonts, mathrsfs}
+\usepackage{tikz}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{ragged2e}
+\usepackage[normalem]{ulem}
+% \usepackage{mlmodern}
+\usepackage{quiver}
+
+
+\usepackage{svg}
+
+\input{macros}
+% ------------------------------------------------------------
+% Colors
+% ------------------------------------------------------------
+
+\colorlet{cblue}{RoyalPurple}
+\colorlet{cgreen}{ForestGreen}
+\colorlet{cred}{Rhodamine}
+
+
+\colorlet{rblue}{MidnightBlue}
+\colorlet{rgreen}{ForestGreen}
+\colorlet{rred}{BrickRed}
+% Useful commands
+
+\newcommand{\blue}[1]{\textcolor{rblue}{#1}}
+\newcommand{\red}[1]{\textcolor{rred}{#1}}
+\newcommand{\green}[1]{\textcolor{rgreen}{#1}}
+
+\newcommand{\remph}[1]{\textcolor{cblue}{#1}}
+\newcommand{\cemph}[1]{\textcolor{cred}{#1}}
+\newcommand{\gemph}[1]{\textcolor{cgreen}{#1}}
+
+% ------------------------------------------------------------
+% General style
+% ------------------------------------------------------------
+
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=black,bg=white}
+
+\setbeamercolor{block title}{
+  fg=rblue,
+  bg=white
+}
+
+\setbeamercolor{block body}{
+  fg=black,
+  bg=white
+}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{itemize item}{
+  \small$\blue{\bullet}$
+}
+
+\setbeamertemplate{itemize subitem}{
+  \scriptsize$\bullet$
+}
+
+% Remove block backgrounds and decorations
+\setbeamertemplate{block begin}{
+  \vspace{1ex}
+  {\usebeamerfont{block title}
+   \usebeamercolor[fg]{block title}
+   \insertblocktitle\par}
+
+  \vspace{0.3ex}
+
+  {\hrule height 1.5pt}
+
+  \vspace{1ex}
+
+  \begin{beamercolorbox}[
+    wd=\linewidth,
+    sep=0pt
+  ]{block body}
+}
+
+\setbeamertemplate{block end}{
+  \end{beamercolorbox}
+  \vspace{1.5ex}
+}
+
+% ------------------------------------------------------------
+% Fonts
+% ------------------------------------------------------------
+
+\setbeamerfont{title}{
+  size=\veryHuge,
+  series=\sffamily 
+}
+
+\setbeamerfont{author}{
+  size=\LARGE
+}
+
+\setbeamerfont{institute}{
+  size=\Large
+}
+
+\setbeamerfont{block title}{
+  size=\LARGE,
+%   series=\bfseries
+}
+
+\setbeamerfont{normal text}{
+  size=\large
+}
+
+% ------------------------------------------------------------
+% Poster information
+% ------------------------------------------------------------
+
+\title{Diagrammatic $(\infty,n)$-categories}
+
+\author{
+  \uline{Cl\'emence Chanavat}
+  \qquad
+  j.w.w Amar Hadzihasanovic
+}
+
+\institute{
+  Tallinn University of Technology
+}
+
+% ------------------------------------------------------------
+% Document
+% ------------------------------------------------------------
+\usetikzlibrary{nfold}
+
+\begin{document}
+
+\begin{frame}[fragile, t]
+
+% ------------------------------------------------------------
+% Title
+% ------------------------------------------------------------
+
+\begin{center}
+
+{\usebeamerfont{title}
+ \color{rblue}
+ {\setlength{\fboxsep}{20pt}\fbox{\parbox{0.60\linewidth}{\centering\inserttitle}}}
+ \par}
+
+\vspace{1ex}
+
+{\usebeamerfont{author}
+ \insertauthor
+ \par}
+
+\vspace{0.5ex}
+
+{\usebeamerfont{institute}
+ \insertinstitute
+ \par}
+
+\vspace{1ex}
+
+% no line?
+% {\hrule height 3pt} 
+
+\end{center}
+
+
+\input{content}
+
+\end{frame}
+
+\end{document}

@@ -1,0 +1,158 @@
+% general macros
+\newcommand\eqdef{\coloneqq}
+\newcommand\nbd{\nobreakdash-\hspace{0pt}}
+\newcommand\idd[1]{\mathrm{id}_{#1}}
+\newcommand\invrs[1]{#1^{-1}}
+\newcommand\after{\circ}
+
+\newcommand\incl{\hookrightarrow}
+\newcommand\restr[2]{{#1}{\raisebox{0pt}{$|_{#2}$}}}
+\newcommand\powerset[1]{\mathscr{P}{#1}}
+
+\newcommand\set[1]{\left\{ {#1} \right\}}
+\newcommand\order[2]{#2^{(#1)}}
+\newcommand{\nat}{\mathbb{N}}
+
+% category theory macros
+
+\newcommand\cat[1]{\underline{\mathrm{#1}}}
+\newcommand\fun[1]{\mathsf{#1}}
+\DeclareMathOperator*{\colim}{colim}
+\def\raiseslice#1#2{\raisebox{-2pt}{$#1#2$}}
+\newcommand{\slice}[2]{{#1{/}\mathpalette\raiseslice{#2}}}
+\newcommand{\counit}{\varepsilon}
+\renewcommand{\a}{\alpha}
+\newcommand*\cocolon{%
+        \nobreak
+        \mskip6mu plus1mu
+        \mathpunct{}%
+        \nonscript
+        \mkern-\thinmuskip
+        {:}%
+        \mskip2mu
+        \relax
+}
+
+% special categories
+\newcommand\rdcpxequal{\cat{rdCpx}}
+\newcommand\rdcpxmap{\cat{rdCpx}^{\downarrow}}
+\newcommand\rdcpxomega{\rdcpx^{\omega}}
+\newcommand\dcpx{\cat{dCpx}}
+\newcommand\dcpxomega{\dcpx^{\omega}}
+\newcommand\dcpxn[1]{\gr{#1}{\dcpx}}
+\newcommand{\dcpxac}{\dcpx^{\mathsf{ac}}}
+\newcommand{\Cat}{\cat{Cat}}
+
+\DeclareMathOperator{\Psh}{\cat{Psh}}
+\DeclareMathOperator{\sPsh}{\Psh^{\scalebox{0.7}{\( \infty \)}}}
+\DeclareMathOperator{\dPsh}{\Psh^{\scalebox{0.7}{\( \Delta \)}}}
+
+\newcommand\Molec{Mol}
+\newcommand\Atom{Atom}
+\newcommand{\molcat}{\cat{\Molec}}
+\newcommand{\atomcat}{\cat{\Atom}}
+\newcommand{\atomcatac}{\atomcat^{\mathsf{ac}}
+}
+\newcommand{\nmolcat}[1]{\gr{#1}{\molcat}}
+\newcommand{\natomcat}[1]{\gr{#1}{\atomcat}}
+
+\newcommand\cls[1]{\mathscr{#1}}
+\newcommand{\C}{\cls C}
+
+% oriented poset macros
+\newcommand\clset[1]{\mathrm{cl}\set{#1}}
+\newcommand\gr[2]{#2_{#1}}
+\newcommand\maxel[1]{\mathscr{M}\!\mathit{ax}\,#1}
+\newcommand\bd[2]{\partial_{#1}^{#2}}
+\newcommand\faces[2]{\Delta_{#1}^{#2}}
+\newcommand\cofaces[2]{\nabla_{#1}^{#2}}
+\newcommand\inter[1]{\mathrm{int}\,#1}
+\newcommand\cp[1]{\,{\scriptstyle\#}_{#1}\,}
+\newcommand\celto{\Rightarrow}
+\newcommand\submol{\sqsubseteq}
+\newcommand\sus[1]{\fun{S}{#1}}
+\newcommand\maxflow[2]{\mathscr{M}_{#1}{#2}}
+\DeclareMathOperator{\frdim}{frdim}
+
+% special shapes
+\newcommand{\join}{\,{\star}\,}
+\newcommand{\gray}{\otimes}
+\newcommand{\ospx}[1]{\vec{\Delta}^{#1}}
+
+% layerings and orderings
+\newcommand{\preLay}[1]{\mathscr{P\!L}\!\mathit{ay}_{#1}}
+\newcommand{\preOrd}[1]{\mathscr{P\!O}\!\mathit{rd}_{#1}}
+\newcommand{\Lay}[1]{\mathscr{L}\!\mathit{ay}_{#1}}
+\newcommand{\Ord}[1]{\mathscr{O}\!\mathit{rd}_{#1}}
+\renewcommand{\o}[2]{\mathsf{o}_{#1, #2}}
+
+% maps induced
+\newcommand{\mapel}[1]{\iota_{#1}}
+\newcommand{\imel}[2]{#1_{#2}}
+\newcommand{\prt}[1]{\fun{p}_{#1}}
+
+% special objects
+\newcommand{\globe}[1]{\vec{O}^{#1}}
+\newcommand{\arr}{\vec{I}}
+\newcommand{\pt}{1}
+
+% strict functors
+\newcommand{\F}{\fun{F}}
+\newcommand{\G}{\fun{G}}
+
+% omega cat notations
+\newcommand{\nCat}[1]{{\mathsf{s}\Cat_{#1}}}
+\newcommand{\omegaCat}{{\mathsf{s}\Cat_{\omega}}}
+\newcommand{\somegaCat}{{\mathsf{s}\Cat_{\omega}^>}}
+\newcommand{\snCat}[1]{{\mathsf{s}\Cat_{#1}^>}}
+\newcommand{\nCatinf}[1]{{\Cat_{#1}}}
+\newcommand{\nCatflag}[1]{{\Cat_{#1}^{\mathsf{f}}}}
+
+\newcommand{\strweak}{\iota_{\mathsf{s}}}
+
+\newcommand{\skel}[2]{\gr{\le #1}{#2}}
+\newcommand{\N}{\fun{N}}
+\newcommand{\locflag}{\mathbb{L}^{\mathsf{f}}}
+
+\newcommand{\pcell}[1]{\langle#1\rangle}
+\newcommand\molecin[1]{\slice{\mathit{\Molec}}{#1}}
+\newcommand\atomin[1]{\slice{\mathit{\Atom}}{#1}}
+\newcommand{\Pd}{\cat{Pd}\,}
+\newcommand{\cell}{\cat{cell}\,}
+
+\newcommand{\ThetaS}[1]{\Theta_{#1}}
+\newcommand{\Thetan}[1]{\Theta_{#1}}
+\newcommand{\ThetanS}[2]{\Theta_{#1, #2}}
+\newcommand{\Rtheta}{\fun{R}}
+\newcommand{\Utheta}{\fun{U}}
+
+\newcommand{\rs}{\fun{r}^{>}}
+
+% subdivision
+\newcommand{\Sd}{\mathrm{Sd}\,}
+\newcommand{\Sdi}{\mathrm{Sd}^\triangleleft\,}
+\newcommand{\SdS}[1]{\mathrm{Sd}_{#1}}
+\newcommand{\SdiS}[1]{\mathrm{Sd}^\triangleleft_{#1}}
+\newcommand{\Sdik}[1]{\SdiS{\set{#1}}}
+\newcommand{\Sdk}[1]{\SdS{\set{#1}}}
+\newcommand{\bigcell}[1]{\mu_{#1}}
+\newcommand{\ivl}[2]{[#1,#2]}
+
+% subobject of molecin
+\newcommand{\spine}[1]{\fun{sp}_{#1}}
+\newcommand{\Spine}{\fun{Sp}\,}
+\newcommand{\Smol}{\fun{Qfr}\,}
+\newcommand{\sSmol}{\fun{Qfr}_{\scalebox{0.7}{\( < \)}}\,}
+\newcommand{\Smolp}{\fun{Qfr}^+\,}
+\newcommand{\sSmolp}{\fun{Qfr}^+_{\scalebox{0.7}{\( < \)}}\,}
+
+% regular polygraphs
+\newcommand{\Pol}{\cat{regPol}}
+\newcommand{\nPol}[1]{\gr{#1}{\Pol}}
+\newcommand{\plexcat}{\cat{Plex}}
+\newcommand{\polyplexcat}{\cat{polyPlex}}
+\newcommand{\nplexcat}[1]{\gr{#1}{\plexcat}}
+\newcommand{\npolyplexcat}[1]{\gr{#1}{\polyplexcat}}
+\newcommand{\pl}[1]{\underline{#1}}
+\newcommand{\posplex}{\Phi}
+

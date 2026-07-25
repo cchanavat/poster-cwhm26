@@ -1,0 +1,34 @@
+
+% ------------------------------------------------------------
+% Title
+% ------------------------------------------------------------
+
+\begin{center}
+
+{\usebeamerfont{title}
+ \color{rblue}
+ {\setlength{\fboxsep}{20pt}\fbox{\parbox{0.60\linewidth}{\centering\inserttitle}}}
+ \par}
+
+\vspace{1ex}
+
+{\usebeamerfont{author}
+ \insertauthor
+ \par}
+
+\vspace{0.5ex}
+
+{\usebeamerfont{institute}
+ \insertinstitute
+ \par}
+
+\vspace{1ex}
+
+% no line?
+% {\hrule height 3pt}
+
+\end{center}
+
+
+\input{content}
+
