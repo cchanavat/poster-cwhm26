@@ -1,42 +1,22 @@
-\begin{thebibliography}{10}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{Cha26}
 
-\bibitem{gnu}
+\bibitem[CH25]{chanavat2025semistrict}
+C.~Chanavat and A.~Hadzihasanovic, \emph{Semi-strictification of {$(\infty, n)$}-categories}, arXiv:2507.00146, 2025.
 
+\bibitem[CH26]{chanavat2024model}
+\bysame, \emph{Model structures for diagrammatic $(\infty, n)$-categories}, Algebraic \& Geometric Topology (2026), to appear.
 
-\bibitem{a}
+\bibitem[Cha25]{chanavat2025stricter}
+C.~Chanavat, \emph{Homotopy theory of stricter $n$-categories}, arXiv:2509.26563, 2025.
 
-
-\bibitem{zeta}
-
-
-\bibitem{egne}
-
-
-\bibitem{ene}
-
-
-\bibitem{nuname}
-
-
-\bibitem{exclam}
-
-
-\bibitem{interr}
-
-
-\bibitem{ASCII}
-
-
-\bibitem{bit}
-
-
-\bibitem{bibtex8}
-
-
-\bibitem{pi}
-
-
-\bibitem{alfa}
-
+\bibitem[Cha26]{chanavat2026pasting}
+\bysame, \emph{A strengthened {$(\infty, n)$}-categorical pasting theorem.}, arXiv:2603.22242, 2026.
 
 \end{thebibliography}
