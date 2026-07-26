@@ -176,9 +176,18 @@
 
 % no line?
 % {\hrule height 3pt} 
-
+\begin{tikzpicture}[remember picture,overlay]
+  \node[
+    anchor=north east,
+    xshift=-0cm,
+    yshift=-0cm
+  ] at (current page.north east) {%
+    \includegraphics[scale=0.2]{img/qr-code.png}%
+  };
+\end{tikzpicture}
 \end{center}
 
+\vspace{-3em}
 
 \input{content}
 

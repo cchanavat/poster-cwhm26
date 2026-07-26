@@ -7,17 +7,17 @@
 % First column
 \begin{column}{0.31\textwidth}
 
-\begin{block} {Atom and molecules}
-  A \cemph{molecule} is a combinatorial datum encoding the shape of a higher categorical pasting diagram.
+\begin{block} {Atoms and molecules}
+  A \cemph{molecule} is combinatorial data encoding the shape of a higher categorical pasting diagram.
   A molecule \( U \):
   \begin{itemize}
     \item is an \cemph{oriented} and graded poset; 
-    \item has for each \( \a \in \set{-, +} \) and \( n \in \nat \), a \cemph{input/output \( n \)\nbd boundary}, \( \bd{n}{\a} U \), which is a closed subset of \( U \).
+    \item has for each \( \a \in \set{-, +} \) and \( n \in \nat \), an \cemph{input/output \( n \)\nbd boundary}, \( \bd{n}{\a} U \), which is a closed subset of \( U \).
   \end{itemize}
-  Molecule can be \cemph{pasted} together: given \( U \), \( V \), and \( n \in \nat \), if \( \bd{i}{+} U \cong \bd{i}{-} V \), then the pushout
+  Molecules can be \cemph{pasted} together: given \( U \), \( V \), and \( k \in \nat \), if \( \bd{k}{+} U \cong \bd{k}{-} V \), then the pushout
   \begin{center}
     \begin{tikzcd}
-      {\bd{i}{+} U \cong \bd{i}{-} V} & V \\
+      {\bd{k}{+} U \cong \bd{k}{-} V} & V \\
       U & {U \cp{k} V}
       \arrow[""{name=0, anchor=center, inner sep=0}, hook, from=1-1, to=1-2]
       \arrow[from=1-1, to=2-1]
@@ -34,7 +34,7 @@
 \vspace{-1em}
 \begin{block}{Directed complexes}
     A \cemph{directed complex} \( X \) is a presheaf over the category of atoms.
-    It is the combinatorial data to construct a \remph{positive} and \remph{regular} polygraphs:
+    It is the combinatorial data used to construct a \remph{positive} and \remph{regular} polygraphs:
     \begin{center}
       \begin{tikzcd}
         {\coprod\limits_{u \in \cls S_n} \bd{}{} U} & {\coprod\limits_{u \in \cls S_n} U} \\
@@ -55,7 +55,7 @@
 \end{block}
 
 \begin{block} {Operations}
-  Atom, molecules, and directed complexes, support natively higher categorical operations:
+  Atoms, molecules, and directed complexes, natively support higher categorical operations:
   \begin{itemize}
     \item Gray product \( X \gray Y \),
     \item join \( X \join Y \),
@@ -75,7 +75,7 @@
 \begin{block}{Examples}
 
 \begin{center}
-  \includegraphics[scale=0.5]{img/exx.png}  
+  \includegraphics[scale=0.5]{img/ex4.png}  
 \end{center}
 In the last example:
 \begin{itemize}
@@ -112,43 +112,44 @@ In the last example:
 \begin{column}{0.31\textwidth}
 
 \begin{block}{Diagrammatic \( (\infty, n) \)\nbd categories}
-  Directed complexes may be used in several ways to construct models of \( (0, n) \) and \( (\infty, n) \)\nbd categories:
+  Directed complexes may be used in several ways to construct models of strict \( n \)\nbd categories and \( (\infty, n) \)\nbd categories:
   \begin{enumerate}
-    \item as Segal-sheaves over the \( \molecin{X} \)'s and \remph{strict functors}; 
-    \item as presheaves over the atoms and \remph{cellular} strict functors between them;
+    \item as Segal sheaves over the \( \molecin{X} \)'s and \remph{strict functofdatrs}; 
+    \item as presheaves over the atoms and \remph{cellular} strict functors between them.
     A localisation enforces the existence of \cemph{weak composites}.
   \end{enumerate}
-  This matches the following two perspective on standard \( (\infty, n) \)\nbd categories as
+  This matches the following two perspectives on standard \( (\infty, n) \)\nbd categories as
   \begin{itemize}
-    \item Segal-sheaves over the theta's and strict functors;
+    \item Segal sheaves over the thetas and strict functors;
     \item presheaves over the (marked) orientals and cellular strict functors (i.e. over the marked simplex category).
   \end{itemize}
   \red{\textbf{Theorem.}} Point \remph{1.} is a localisation of the \( (\infty, n) \)\nbd categories at the higher-exchanges, which does nothing when \( n \le 3 \). \\
-  \red{\textbf{Conjecture.}} Point \remph{1.} and \remph{2.} present the same model of higher-categories.
+  \red{\textbf{Conjecture.}} Point \remph{1.} and \remph{2.} present the same model of higher categories.
 \end{block}
 
 \begin{block} {Features of the diagrammatic models}
   \begin{itemize}
     \item Very strong \remph{pasting theorems};
-    \item \remph{Semi-strictification:} marked directed complexes may be used to two \red{equivalent} model:
+    \item \remph{Semi-strictification:} marked directed complexes may be used to produce two \red{equivalent} model:
     \begin{enumerate}
       \item one where composition is witnessed by \gemph{the existence} of weak composites;
       \item one where composition is \gemph{an operation} satisfying strict associativity and exchange; 
     \end{enumerate}
-    In both cases, the unit are algebraic and weak.  
-    \item Native support of \remph{higher categorical constructions}, no need to use different presentation.
+    In both cases, the units are algebraic and weak.  
+    \item Native support for \remph{higher categorical constructions}, with no need to use different presentations.
     \item A rich algebra of \remph{weak units}.
-    \item An overall feeling of a \remph{topologically sound alternative} to strict \( n \)\nbd categories
+    \item A practical formalism that feels like working with a \remph{topologically sound alternative} to strict \( n \)\nbd categories
   \end{itemize}
 \end{block}
 
 \begin{block}{References}
 
 \small
+\nocite{chanavat2026pasting}
+\nocite{chanavat2025stricter}
 \nocite{chanavat2024model}
 \nocite{chanavat2025semistrict}
-\nocite{chanavat2025stricter}
-\nocite{chanavat2026pasting}
+\nocite{hadzihasanovic2024combinatorics}
 \color{black}
 \bibliographystyle{amsalpha}
 \bibliography{main.bib}
