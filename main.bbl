@@ -5,7 +5,7 @@
   \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
 }
 \providecommand{\href}[2]{#2}
-\begin{thebibliography}{Cha26}
+\begin{thebibliography}{Had24}
 
 \bibitem[CH25]{chanavat2025semistrict}
 C.~Chanavat and A.~Hadzihasanovic, \emph{Semi-strictification of {$(\infty, n)$}-categories}, arXiv:2507.00146, 2025.
@@ -18,5 +18,8 @@ C.~Chanavat, \emph{Homotopy theory of stricter $n$-categories}, arXiv:2509.26563
 
 \bibitem[Cha26]{chanavat2026pasting}
 \bysame, \emph{A strengthened {$(\infty, n)$}-categorical pasting theorem.}, arXiv:2603.22242, 2026.
+
+\bibitem[Had24]{hadzihasanovic2024combinatorics}
+A.~Hadzihasanovic, \emph{Combinatorics of higher-categorical diagrams}, London Mathematical Society Lecture Note Series, 2024, to appear.
 
 \end{thebibliography}
